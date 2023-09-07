@@ -1,0 +1,51 @@
+/* Custom styling */
+
+/* Style the Sidebar */
+#sideBar {
+   background-color: rgb(26, 24, 24); 
+   color: white;
+}
+/* Style link inside Sidebar */
+a {
+    font-weight: 600;
+    font-size: normal;
+}
+h1 {
+    font-size: 2.5vw;
+} 
+.button-container1 {
+    margin-top: 10px; /* Optional margin between buttons */
+    margin-right: 10px; /* Optional margin between buttons */
+ }
+.button-container {
+    display: inline-block;
+    margin-top: 10px; /* Optional margin between buttons */
+    margin-right: 10px; /* Optional margin between buttons */
+ }
+p {
+    font-size: 18px;
+}
+.notification{
+    font-size: 12px;
+    text-align:justify;
+}
+
+input[type=text] {
+    background-image: url('./search.png');
+    background-position: -15px -15px; 
+    background-repeat: no-repeat;
+    background-size: 70px;
+    padding-left: 50px;
+  }
+
+.search-input {
+    padding: 9px;
+    background-color: lightgrey;
+    width: 100%;
+    border: none;
+}
+section {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    padding: 0 20px 0 20px;
+}
